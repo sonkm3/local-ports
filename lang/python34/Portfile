@@ -55,7 +55,8 @@ compiler.blacklist      *llvm-gcc-4.2
 configure.args          --enable-framework=${frameworks_dir} \
                         --enable-ipv6 \
                         --with-computed-gotos \
-                        --with-ensurepip=no
+                        --with-ensurepip=no \
+                        --enable-loadable-sqlite-extensions
 
 configure.ccache        no
 
